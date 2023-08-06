@@ -1,0 +1,43 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    Given a string of digits guaranteed to only contain ordinary integer digit characters 0 to 9, create and return the {% if is_js %}array{% else %}list{% endif %} of increasing integers acquired from reading these digits in order from left to right. The first integer in the result list is made up from the first digit of the string. After that, each element is an integer that consists of as many following consecutive digits as are needed to make that integer <strong>strictly larger</strong> than the previous integer. The leftover digits at the end of the digit string that do not form a sufficiently large integer are ignored. 
+</p>
+
+<!-- <p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 83px"/>
+</p> -->
+
+<!-- Explain input and output values -->
+<p>
+    <strong>Input:</strong> String <span translate="no">(str{% if is_js %}ing{% endif %})</span>.
+</p>
+
+<p>
+    <strong>Output:</strong> <span translate="repeat">{% if is_js %}Array{% else %}List{% endif %}</span> of integers <span translate="no">({% if is_js %}number{% else %}int{% endif %})</span>. 
+</p>
+
+
+<p>
+    <strong>Examples:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
+<p><i>The mission was taken from <span translate="no">Python CCPS 109</span>. It is taught for <span translate="no">Ryerson Chang School of Continuing Education</span> by <a href="https://github.com/ikokkari">Ilkka Kokkarinen</a></i></p>
