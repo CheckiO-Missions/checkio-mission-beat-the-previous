@@ -1,0 +1,47 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+   {% else %}За заданим рядком цифр, який гарантовано містить лише звичайні цілі цифри від 0 до 9, створіть і поверніть у масив {% if is_js %}список{% endif %} зростаючих цілих чисел, отриманих при зчитуванні цих цифр у порядку зліва направо. Перше число у списку результатів складається з першої цифри рядка. Після цього кожен елемент є цілим числом, яке складається з такої кількості наступних послідовних цифр, яка необхідна для того, щоб це число було <strong>строго більшим</strong> за попереднє. Залишки цифр у кінці рядка, які не утворюють достатньо великого цілого, ігноруються. 
+</p>
+
+<p>
+    Ця місія досить легка, але у нас також є складніша версія - <a target="_blank" href="https://py.checkio.org/en/mission/staircase/">Staircase</a>. Спробуйте її!
+</p>
+
+<!-- <p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 83px"/>
+</p> -->
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Вхідні дані:</strong> Рядок <span>(str{% if is_js %}ing{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Вихідні дані:</strong> {% if is_js %}Масив{% else %}Список{% endif %} <span>({% if is_js %}Array{% else %}List{% endif %})</span> цілих чисел <span>({% if is_js %}number{% else %}int{% endif %})</span>. 
+</p>
+
+
+<p>
+    <strong>Приклади:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
+<p><i>Завдання взято з сайту <span>Python CCPS 109</span>. Викладається для <span>Ryerson Chang School of Continuing Education</span> за допомогою <a href="https://github.com/ikokkari">Ilkka Kokkarinen</a></i></p>
