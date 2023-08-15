@@ -1,0 +1,47 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    Biorąc pod uwagę ciąg cyfr gwarantujący, że zawiera tylko zwykłe znaki cyfr całkowitych od 0 do 9, proszę utworzyć i zwrócić tablicę {% if is_js %}{% else %} lista{% endif %} rosnących liczb całkowitych uzyskanych z odczytu tych cyfr w kolejności od lewej do prawej. Pierwsza liczba całkowita na liście wyników jest utworzona z pierwszej cyfry ciągu. Następnie każdy element jest liczbą całkowitą, która składa się z tylu kolejnych cyfr, ile potrzeba, aby ta liczba całkowita była <strong>ściśle większa</strong> od poprzedniej liczby całkowitej. Pozostałe cyfry na końcu ciągu cyfr, które nie tworzą wystarczająco dużej liczby całkowitej, są ignorowane. 
+</p>
+
+<p>
+    To zadanie jest dość łatwe, ale mamy też trudniejszą wersję - <a target="_blank" href="https://py.checkio.org/en/mission/staircase/">Staircase</a>. Proszę spróbować!
+</p>
+
+<!-- <p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 83px"/>
+</p> -->
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Dane wejściowe:</strong> String <span>(str{% if is_js %}ing{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Wyjście:</strong> {% if is_js %}Tablica{% else %}Lista{% endif %} <span>({% if is_js %}Array{% else %}List{% endif %})</span> liczb całkowitych <span>({% if is_js %}number{% else %}int{% endif %})</span>. 
+</p>
+
+
+<p>
+    <strong>Przykłady:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
+<p><i>Misja została zaczerpnięta z <span>Python CCPS 109</span>. Jest ona nauczana dla <span>Ryerson Chang School of Continuing Education</span> przez <a href="https://github.com/ikokkari">Ilkka Kokkarinen</a></i></p>
