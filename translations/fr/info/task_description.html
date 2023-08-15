@@ -1,0 +1,47 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    Étant donné une chaîne de chiffres dont il est garanti qu'elle ne contient que des caractères entiers ordinaires de 0 à 9, créez et renvoyez le tableau {% if is_js %}{% else %} liste{% endif %} d'entiers croissants obtenus à partir de la lecture de ces chiffres dans l'ordre de gauche à droite. Le premier entier de la liste de résultats est constitué du premier chiffre de la chaîne. Ensuite, chaque élément est un entier composé d'autant de chiffres consécutifs qu'il en faut pour que cet entier soit <strong>strictement plus grand</strong> que l'entier précédent. Les chiffres restants à la fin de la chaîne de chiffres qui ne forment pas un entier suffisamment grand sont ignorés. 
+</p>
+
+<p>
+    Cette mission est assez facile, mais nous avons aussi une version plus difficile - <a target="_blank" href="https://py.checkio.org/en/mission/staircase/">Staircase</a>. Essayez-la!
+</p>
+
+<!-- <p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 83px"/>
+</p> -->
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Entrée:</strong> Chaîne <span>(str{% if is_js %}ing{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Sortie:</strong> {% if is_js %}Tableau{% else %}Liste{% endif %} <span>({% if is_js %}Array{% else %}List{% endif %})</span> d'entiers <span>({% if is_js %}number{% else %}int{% endif %})</span>. 
+</p>
+
+
+<p>
+    <strong>Exemples:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
+<p><i>La mission est extraite de <span>Python CCPS 109</span>. Elle est enseignée à <span>Ryerson Chang School of Continuing Education</span> par <a href="https://github.com/ikokkari">Ilkka Kokkarinen</a></i></p>
