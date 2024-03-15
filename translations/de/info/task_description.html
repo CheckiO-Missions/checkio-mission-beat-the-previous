@@ -1,0 +1,47 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    Erzeugen Sie aus einer Zeichenkette mit Ziffern, die garantiert nur die gewöhnlichen ganzzahligen Ziffern 0 bis 9 enthält, das Array {% if is_js %}{% else %} list{% endif %} mit aufsteigenden ganzen Zahlen, die sich aus dem Lesen dieser Ziffern in der Reihenfolge von links nach rechts ergeben. Die erste ganze Zahl in der Ergebnisliste wird aus der ersten Ziffer der Zeichenkette gebildet. Danach ist jedes Element eine Ganzzahl, die aus so vielen aufeinanderfolgenden Ziffern besteht, wie nötig sind, um diese Ganzzahl <strong>unbedingt größer</strong> als die vorherige Ganzzahl zu machen. Die restlichen Ziffern am Ende der Ziffernfolge, die keine ausreichend große ganze Zahl ergeben, werden ignoriert. 
+</p>
+
+<p>
+    Diese Aufgabe ist recht einfach, aber wir haben auch eine schwierigere Version - <a target="_blank" href="https://py.checkio.org/en/mission/staircase/">Staircase</a>. Probieren Sie es aus!
+</p>
+
+<!-- <p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 83px"/>
+</p> -->
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Eingabe:</strong> Zeichenkette <span>(str{% if is_js %}ing{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Ausgabe:</strong> {% if is_js %}Array{% else %}Liste{% endif %} <span>({% if is_js %}Array{% else %}List{% endif %})</span> von ganzen Zahlen <span>({% if is_js %}number{% else %}int{% endif %})</span>. 
+</p>
+
+
+<p>
+    <strong>Beispiele:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
+<p><i>Die Aufgabe wurde von <span>Python CCPS 109</span> übernommen. Sie wird für <span>Ryerson Chang School of Continuing Education</span> von <a href="https://github.com/ikokkari">Ilkka Kokkarinen</a></i></p>
